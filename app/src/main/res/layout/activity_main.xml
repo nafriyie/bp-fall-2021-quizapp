@@ -9,9 +9,10 @@
     <LinearLayout
             android:orientation="vertical"
             android:gravity="center"
-            android:background="@drawable/main_background_3"
+            android:background="@drawable/main_background_4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="50dp"
+            tools:layout_editor_absoluteX="-38dp">
         <TextView
                 android:text="Breaking Bad Quiz"
                 android:textSize="40sp"
@@ -38,10 +39,10 @@
                         android:text="Please Enter Your Name:"
                         android:textSize="22sp"
                         android:gravity="center_horizontal"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content" android:id="@+id/textView3"/>
                 <EditText
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPersonName"
                         android:text="Name"
