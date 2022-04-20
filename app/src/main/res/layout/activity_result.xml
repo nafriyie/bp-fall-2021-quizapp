@@ -7,4 +7,39 @@
         android:layout_height="match_parent"
         tools:context=".ResultActivity">
 
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/main_background"
+            android:id="@+id/imageView3"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="So you think you're a drug dealer..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/result_view"
+                android:id="@+id/imageView2"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Score"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName2"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName"/>
+        <Button
+                android:text="Finish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button2" android:onClick="restart"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

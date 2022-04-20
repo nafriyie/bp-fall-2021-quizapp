@@ -5,7 +5,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ResultActivity extends AppCompatActivity {
+public class  ResultActivity extends AppCompatActivity {
 
     // UI component variables
 

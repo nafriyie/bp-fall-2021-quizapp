@@ -7,4 +7,10 @@
         android:layout_height="match_parent"
         tools:context=".QuizQuestionActivity">
 
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="275dp"
+            tools:layout_editor_absoluteX="71dp">
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
